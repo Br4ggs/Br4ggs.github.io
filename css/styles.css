@@ -1,0 +1,42 @@
+body {
+    background-color: #161921;
+}
+
+a {
+    color: #f2ffe3;
+}
+
+h2 {
+    color: #161921;
+    background-color: #ffc636;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h3 {
+    color: #f2ffe3;
+}
+
+p {
+    color: #f2ffe3;
+}
+
+.lander {
+    color: #161921;
+    background-color: #ffc636;
+    width: 100vw;
+    height: 100vh;
+}
+
+.black-marked {
+    color: #f2ffe3;
+    background-color: #161921;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.white {
+    color: #f2ffe3;
+}
