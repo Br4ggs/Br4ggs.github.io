@@ -9,6 +9,7 @@ a {
 }
 
 h2 {
+    font-size: 3em;
     color: #161921;
     background-color: #ffc636;
     display: inline-block;
@@ -21,7 +22,16 @@ h3 {
 }
 
 p {
+    padding-right: 25%;
+    font-size: 1.5em;
     color: #f2ffe3;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .lander {
@@ -72,17 +82,25 @@ p {
 .wrapper {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     align-items: stretch;
-    padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 20%;
     margin-bottom: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
 }
 
 .cell {
     background: brown;
-    background: linear-gradient(to top, #1f2d3d, rgba(0,0,0,0));
+    background: linear-gradient(to top, #1f2d3d 50%, rgba(0,0,0,0));
     flex: 1 240px;
     padding: 10px;
     display: inline-block;
+    width: 100%;
 }
 
     .cell:nth-of-type(2) {
