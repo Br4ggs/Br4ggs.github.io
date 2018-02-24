@@ -19,12 +19,18 @@ h2 {
 
 h3 {
     color: #f2ffe3;
+    font-size: 2em;
 }
 
 p {
     padding-right: 25%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #f2ffe3;
+}
+
+.cell ul {
+    font-size: 1.3em;
+    padding-left: 9%;
 }
 
 span {
@@ -37,7 +43,7 @@ span {
 .lander {
     color: #161921;
     background-color: #ffc636;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -83,7 +89,6 @@ span {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: stretch;
     padding-left: 10%;
     padding-right: 20%;
     margin-bottom: 10px;
@@ -95,13 +100,24 @@ span {
 }
 
 .cell {
-    background: brown;
+    margin: 10px;
     background: linear-gradient(to top, #1f2d3d 50%, rgba(0,0,0,0));
-    flex: 1 240px;
+    flex: 1 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
     padding: 10px;
-    display: inline-block;
-    width: 100%;
 }
+
+    .cell .blurb {
+        padding: 20px;
+    }
+
+    .cell h2 {
+        font-size: 2em;
+        color: #f2ffe3;
+        background-color: transparent;
+        margin-bottom: 0;
+    }
 
     .cell:nth-of-type(2) {
         background: rgba(0,0,0,0);
