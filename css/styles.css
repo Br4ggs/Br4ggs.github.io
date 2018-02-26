@@ -81,7 +81,8 @@ span {
 }
 
 .content {
-    padding-left: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 5%;
 }
 
@@ -89,14 +90,18 @@ span {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding-left: 10%;
-    padding-right: 20%;
     margin-bottom: 10px;
 }
 
 .icon {
+    margin: 0;
     display: flex;
     justify-content: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .cell {
