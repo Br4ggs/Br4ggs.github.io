@@ -3,6 +3,7 @@
 <head>
     <title>Emiel van den Brink</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
@@ -76,34 +77,36 @@
     <section class="portfolio content" id="portfolio">
         <h2>Portfolio</h2>
         <p>bla bla bla heres some stuff i made:</p>
-        <div>
-            <div class="blurb">
-                <h3><a href="https://github.com/Kewol">Braggbot</a></h3>
-                <p>Braggbot is a bot for Discord i made in my spare time, currently still being worked on, albeit in rather slow development</p>
+        <div class="grid">
+            <div class="grid-item">
+                <div class="blurb">
+                    <h3><a href="https://github.com/Kewol">Braggbot</a></h3>
+                    <p>Braggbot is a bot for Discord i made in my spare time, currently still being worked on, albeit in rather slow development</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="blurb">
-                <h3><a href="https://github.com/Kewol/Braggs.github.io">This website</a></h3>
-                <p>Made from scratch, using nothing but my own blood sweat and tears(and a little bit of bootstrap here and there)</p>
+            <div class="grid-item">
+                <div class="blurb">
+                    <h3><a href="https://github.com/Kewol/Braggs.github.io">This website</a></h3>
+                    <p>Made from scratch, using nothing but my own blood sweat and tears(and a little bit of bootstrap here and there)</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="blurb">
-                <h3><a href="https://github.com/Kewol">2D maze-level generator</a></h3>
-                <p>Originally planned to be part of the survival-mode of a game project me and some friends worked on, unfortunately it never got implemented</p>
+            <div class="grid-item">
+                <div class="blurb">
+                    <h3><a href="https://github.com/Kewol">2D maze-level generator</a></h3>
+                    <p>Originally planned to be part of the survival-mode of a game project me and some friends worked on, unfortunately it never got implemented</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="blurb">
-                <h3><a href="https://www.behance.net/Braggs">Artwork</a></h3>
-                <p>yes, I do occasionally like to open up photoshop and make some digital drawings, and I don't shy away from painting a miniature once in a while either</p>
+            <div class="grid-item">
+                <div class="blurb">
+                    <h3><a href="https://www.behance.net/Braggs">Artwork</a></h3>
+                    <p>yes, I do occasionally like to open up photoshop and make some digital drawings, and I don't shy away from painting a miniature once in a while either</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="blurb">
-                <h3><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's GOL</a></h3>
-                <p>A rendition of the famous life simulation, Conway's game of life, recreated in unity</p>
+            <div class="grid-item">
+                <div class="blurb">
+                    <h3><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's GOL</a></h3>
+                    <p>A rendition of the famous life simulation, Conway's game of life, recreated in unity</p>
+                </div>
             </div>
         </div>
         <p>view CV</p>
@@ -121,5 +124,6 @@
             <a href="https://www.behance.net/Braggs"><i class="fab fa-behance-square fa-5x"></i></a>
         </div>
     </section>
+    <script src="js/masonry.js"></script>
 </body>
 </html>

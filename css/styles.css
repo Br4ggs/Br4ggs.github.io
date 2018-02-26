@@ -104,6 +104,22 @@ span {
     justify-content: flex-end;
 }
 
+.grid {
+    margin: 0 auto;
+}
+
+.grid-item {
+    padding: 10px;
+    width: 300px;
+    float: right;
+    background: #1f2d3d;
+    margin-bottom: 15px;
+}
+
+.grid-item--width2 {
+    width: 400px;
+}
+
 .cell {
     margin: 10px;
     background: linear-gradient(to top, #1f2d3d 50%, rgba(0,0,0,0));
