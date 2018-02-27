@@ -10,4 +10,4 @@ function loadMasonry() {
     });
 }
 
-window.addEventListener("load", loadMasonry());
+window.onload = loadMasonry;
