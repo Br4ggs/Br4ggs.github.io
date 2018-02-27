@@ -1,12 +1,13 @@
-var elem = document.querySelector('.grid');
+var elem;
 var msnry;
 
 function loadMasonry() {
+    elem = document.querySelector('.grid');
     msnry = new Masonry(elem, {
         itemSelector: '.grid-item',
-        columnWidth: 112,
+        gutter: 15,
         isFitWidth: true
-        });
+    });
 }
 
-window.onload = loadMasonry();
+window.addEventListener("load", loadMasonry());

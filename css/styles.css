@@ -4,6 +4,10 @@ body {
     margin: 0%;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 a {
     color: #f2ffe3;
 }
