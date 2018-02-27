@@ -108,21 +108,42 @@ span {
     justify-content: flex-end;
 }
 
+.external-links {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.external-links a {
+    margin: 20px;
+}
+
+.grid-img {
+    height: 60%;
+    width: 60%;
+    margin-right: 20%;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: #ffc636;
+
+}
+
 .grid {
     margin: 0 auto;
 }
 
 .grid-item {
+    background: #1f2d3d;
     padding: 10px;
     width: 300px;
     float: right;
-    background: #1f2d3d;
     margin-bottom: 15px;
 }
 
-.grid-item--width2 {
-    width: 400px;
+.blurb {
+    padding: 20px;
 }
+
 
 .cell {
     margin: 10px;
@@ -132,10 +153,6 @@ span {
     flex-shrink: 0;
     padding: 10px;
 }
-
-    .cell .blurb {
-        padding: 20px;
-    }
 
     .cell h2 {
         font-size: 2em;
