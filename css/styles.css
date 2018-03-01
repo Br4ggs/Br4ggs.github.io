@@ -4,10 +4,6 @@ body {
     margin: 0%;
 }
 
-html {
-    overflow-y: scroll;
-}
-
 a {
     color: #f2ffe3;
 }
@@ -42,6 +38,20 @@ span {
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-text {
+    flex: 1 250px;
+}
+
+.about-img img {
+    margin-top: 40px;
+    width: 250px;
 }
 
 .lander {
@@ -101,11 +111,6 @@ span {
     margin: 0;
     display: flex;
     justify-content: center;
-}
-
-.profile {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .external-links {
