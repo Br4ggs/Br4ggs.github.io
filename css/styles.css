@@ -100,73 +100,88 @@ span {
     padding-top: 5%;
 }
 
-.wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-bottom: 10px;
+@media only screen and (max-width: 1200px) {
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
 }
 
-.icon {
-    margin: 0;
-    display: flex;
-    justify-content: center;
+@media only screen and (max-width: 550px) {
+    .content {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
 }
 
-.external-links {
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: center;
-}
-
-.external-links a {
-    margin: 20px;
-}
-
-.grid-img {
-    height: 60%;
-    width: 60%;
-    margin-right: 20%;
-    border-left-style: solid;
-    border-left-width: 10px;
-    border-left-color: #ffc636;
-
-}
-
-.grid {
-    padding-top: 5%;
-    margin: 0 auto;
-}
-
-.grid-item {
-    background: #1f2d3d;
-    padding: 10px;
-    width: 300px;
-    float: right;
-    margin-bottom: 15px;
-}
-
-.blurb {
-    padding: 20px;
-}
-
-
-.cell {
-    margin: 10px;
-    background: linear-gradient(to top, #1f2d3d 50%, rgba(0,0,0,0));
-    flex: 1 300px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    padding: 10px;
-}
-
-    .cell h2 {
-        font-size: 2em;
-        color: #f2ffe3;
-        background-color: transparent;
-        margin-bottom: 0;
+    .wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
-    .cell:nth-of-type(2) {
-        background: rgba(0,0,0,0);
+    .icon {
+        margin: 0;
+        display: flex;
+        justify-content: center;
     }
+
+    .external-links {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+        .external-links a {
+            margin: 20px;
+        }
+
+    .grid-img {
+        height: 60%;
+        width: 60%;
+        margin-right: 20%;
+        border-left-style: solid;
+        border-left-width: 10px;
+        border-left-color: #ffc636;
+    }
+
+    .grid {
+        padding-top: 5%;
+        margin: 0 auto;
+    }
+
+    .grid-item {
+        background: #1f2d3d;
+        padding: 10px;
+        width: 300px;
+        float: right;
+        margin-bottom: 15px;
+    }
+
+    .blurb {
+        padding: 20px;
+    }
+
+
+    .cell {
+        margin: 10px;
+        background: linear-gradient(to top, #1f2d3d 50%, rgba(0,0,0,0));
+        flex: 1 300px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        padding: 10px;
+    }
+
+        .cell h2 {
+            font-size: 2em;
+            color: #f2ffe3;
+            background-color: transparent;
+            margin-bottom: 0;
+        }
+
+        .cell:nth-of-type(2) {
+            background: rgba(0,0,0,0);
+        }
