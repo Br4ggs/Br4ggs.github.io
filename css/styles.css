@@ -23,7 +23,6 @@ h3 {
 }
 
 p {
-    padding-right: 25%;
     font-size: 1.3em;
     color: #f2ffe3;
 }
@@ -44,7 +43,6 @@ span {
     float: right;
     width: 200px;
     height: 200px;
-    margin: 0px 0px 15px 20px;
 }
 
 .lander {
@@ -173,18 +171,12 @@ span {
         background: linear-gradient(to top, #1f2d3d 50%, rgba(0,0,0,0));
     }
 
-    .about-img img {
-        margin-top: 40px;
-        width: 150px;
-    }
-
     .external-links a {
         margin: 3px;
     }
 
     .profile-img {
-        float: right;
-        width: 150px;
-        height: 150px;
+        width: 175px;
+        height: 175px;
     }
 }
