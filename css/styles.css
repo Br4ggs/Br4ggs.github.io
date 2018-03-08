@@ -40,18 +40,11 @@ span {
     justify-content: center;
 }
 
-.about-wrapper {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.about-text {
-    flex: 1 250px;
-}
-
-.about-img img {
-    margin-top: 40px;
-    width: 250px;
+.profile-img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 15px 20px;
 }
 
 .lander {
@@ -170,14 +163,7 @@ span {
     background: rgba(0,0,0,0);
 }
 
-@media only screen and (max-width: 1200px) {
-    .content {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-}
-
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 1400px) {
     .content {
         padding-left: 5%;
         padding-right: 5%;
@@ -193,6 +179,12 @@ span {
     }
 
     .external-links a {
-        margin: 5px;
+        margin: 3px;
+    }
+
+    .profile-img {
+        float: right;
+        width: 150px;
+        height: 150px;
     }
 }
