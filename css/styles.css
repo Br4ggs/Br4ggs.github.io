@@ -52,14 +52,18 @@ span {
     height: 100vh;
 }
 
+.lander-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .lander-title {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 6vw;
+    font-size: 7em;
 }
 
 .black-marked {
