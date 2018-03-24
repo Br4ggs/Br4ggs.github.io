@@ -4,10 +4,11 @@
     <title>Emiel van den Brink</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <link rel="stylesheet" href="css/styles.css"/>
-    <script src="js/gridloader.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/behaviour.js"></script>
 </head>
 
 <body>
@@ -20,12 +21,12 @@
         </a>
     </section>
 
-    <section class="about content" id="about">
+    <section class="content" id="about">
         <h2>About Me</h2>
         <p><img class="profile-img" src="images/profile.png">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. consectetuer adipiscing elit. Aenean commodo Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
     </section>
 
-    <section class="what-i-do content">
+    <section class="content" id="what-i-do">
         <h2>What I do</h2>
         <div class="about-collumns wrapper">
             <div class="programming cell">
@@ -38,7 +39,7 @@
                 <div class="blurb">
                     <h2>Coding</h2>
                     <p>I love programming, here's some of the languages I know</p>
-                    <ul class="white">
+                    <ul>
                         <li>Java</li>
                         <li>C#</li>
                         <li>Python</li>
@@ -78,7 +79,7 @@
         </div>
     </section>
 
-    <section class="portfolio content" id="portfolio">
+    <section class="content" id="portfolio">
         <h2>Portfolio</h2>
         <p>bla bla bla heres some stuff i made:</p>
         <p><a href="https://github.com/Kewol/Braggs.github.io">view CV</a></p>
@@ -94,7 +95,7 @@
             </div>
             <div class="grid-item">
                 <div class="blurb">
-                    <h3><a href="https://github.com/Kewol/Braggs.github.io">This website</a></h3>
+                    <h3><a href="https://github.com/Kewol/Kewol.github.io">This website</a></h3>
                     <p>Made from scratch, using nothing but my own blood sweat and tears(and a little bit of bootstrap here and there)</p>
                 </div>
             </div>
@@ -109,7 +110,7 @@
             </div>
             <div class="grid-item">
                 <div class="blurb">
-                    <h3><a href="https://github.com/Kewol">2D maze-level generator</a></h3>
+                    <h3><a href="https://github.com/Kewol/DungeonGenerator">2D maze-level generator</a></h3>
                     <p>Originally planned to be part of the survival-mode of a game project me and some friends worked on, unfortunately it never got implemented</p>
                 </div>
             </div>
@@ -118,14 +119,14 @@
                         <div>
                                 <img class="grid-img" src="images/gol.png">
                             </div>
-                    <h3><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's GOL</a></h3>
+                    <h3><a href="https://github.com/Kewol/GameOfLife">Conway's GOL</a></h3>
                     <p>A rendition of the famous life simulation, Conway's game of life, recreated in unity</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact content" id="contact">
+    <section class="content" id="contact">
         <h2>Contact</h2>
         <p><a href="mailto:anemailadress@gmail.com?Subject=Hello%20there">anemailadress@gmail.com</a></p>
         <p>06 235 344 51</p>
@@ -149,8 +150,5 @@
             </a>
         </div>
     </section>
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jqueryfunctions.js"></script>
 </body>
 </html>
