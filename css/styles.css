@@ -102,13 +102,27 @@ a:hover {
     justify-content: center;
 }
 
-.profile-img {
-    float: right;
-    width: 200px;
-    height: 200px;
-    padding-left: 20px;
+.about-wrapper {
+    display: flex;
 }
 
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    transition: background-image 1s ease-in-out;
+}
+
+#profile {
+    background: url("../images/profile.png");
+}
+
+#profile:hover {
+    background: url("../images/profileMouseOver.png");
+}
 
 
 .external-links {
