@@ -110,17 +110,15 @@ a:hover {
     width: 200px;
     height: 200px;
     border-radius: 25px;
+    background: url("../images/profile.png");
+    transition: all 0.2s ease-in-out;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    transition: background-image 1s ease-in-out;
 }
 
-#profile {
-    background: url("../images/profile.png");
-}
 
-#profile:hover {
+.profile-img:hover {
     background: url("../images/profileMouseOver.png");
 }
 
