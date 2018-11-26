@@ -46,8 +46,6 @@ a:hover {
    font-size: 110%;
 }
 
-
-
 .lander {
     color: #161921;
     background-color: #ffc636;
@@ -88,8 +86,6 @@ a:hover {
     font-size: 60%;
 }
 
-
-
 .content {
     padding-left: 15%;
     padding-right: 15%;
@@ -117,11 +113,9 @@ a:hover {
     background-repeat: no-repeat !important;
 }
 
-
 .profile-img:hover {
     background: url("../images/profileMouseOver.png");
 }
-
 
 .external-links {
     flex-flow: row wrap;
@@ -132,8 +126,6 @@ a:hover {
 .external-links a {
     margin: 20px;
 }
-
-
 
 .grid {
     padding-top: 5%;
@@ -156,8 +148,6 @@ a:hover {
     border-left-width: 10px;
     border-left-color: #ffc636;
 }
-
-
 
 .wrapper {
     display: flex;
@@ -195,7 +185,11 @@ a:hover {
     padding: 20px;
 }
 
-
+@media only screen and (max-width: 1474px) {
+    .cell:nth-of-type(2) {
+        background: linear-gradient(to top, #1f2d3d 50%, rgba(0,0,0,0));
+    }
+}
 
 @media only screen and (max-width: 1400px) {
     .content {
